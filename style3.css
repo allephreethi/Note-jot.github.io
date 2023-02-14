@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ nav{
+    background:lavender;
+    height: 90px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    align-content: center;
+}
+nav ul li{
+    align-items: center;
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    align-items: center;
+    color: purple;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.Content-overall{
+  text-align: center;
+}
+
+.content-h1{
+      text-align: center;
+      font-size: 150%;
+    }
+    .home1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background:url(9594bg.jpg)no-repeat ;
+    background-size: 1900px 900px ;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    size: 100%;
+    padding-bottom: 10%;
+    
+}
+
+.btn{
+    width:10%;
+    height: 8%;
+    font-size: large;
+}
+.radio{
+    width:50%;
+    height: 8%;
+    font-size: large;
+}
+.content-btn{
+    text-align: center;}
+.content-header{
+     text-align: center;}
+.btn8{
+    height: 100px;
+    width: 500px;
+    background-color:lavender;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .home1{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+background:url(9594bg.jpg)no-repeat ;
+background-size: 1900px 900px ;
+background-position: center;
+background-attachment: fixed;
+position: relative;
+text-align: center;
+size: 100%;
+padding-bottom: 10%;
+
+}
+
+
+  

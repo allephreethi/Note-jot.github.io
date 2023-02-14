@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT US</title>
+</head> 
+<link type="text/css" rel="stylesheet" href="contact.css">
+
+<script>
+          function msg(){
+        alert("Submitted")
+    }
+</script>
+<body>
+<div class="form-container">
+    <div class="login-form">    
+    <form action="contactus.php" method="post">
+        <h3>Contact Us</h3>
+        <fieldset style="text-align:left; border-width:3px; border-color:rgb(22, 21, 22); height:fit-content;" ><br>
+        <label for="firstname" >First Name: </label><br>
+        <input type="text" id="firstname1" name="firstname1" ><br><br>
+    <label for="lastname" >Last Name: </label><br>
+              <input type="text" id="lastname1" name="lastname1" ><br><br>
+    <label for="email" >Email: </label><br>
+              <input type="email" id="email1" name="email1"><br><br>
+    <label for="message" >Message: </label><br>
+              <textarea id="message" name="message" style="height:80px; width:75%"></textarea><br>
+    <input type="Submit" onclick="msg()" style=" font-size: 15px; font-weight: bold; margin: 8px 0;
+    padding: 10px 60px; width: 50%; height: fit-content; text-align:center;"
+    name="contact" class="form-btn">
+        </fieldset>
+    </div>
+</div>
+   </form>
+    </body>
+    </html>

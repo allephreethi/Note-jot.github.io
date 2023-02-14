@@ -1,0 +1,27 @@
+body{
+    height: 640px;
+    background: linear-gradient(to bottom right, #721099 0%, #a397e494 100%)
+}
+.login-form{
+    width: 450px;
+    left: 475px;
+    position:absolute;
+    color: #fff;
+}
+  .login-form h3{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.login-form p{
+  font-size: 17px;
+  margin: 10px 0;
+}
+.login-form input{
+  font-size: 10px;
+  width: 95%;
+  padding: 15px 10px;
+  border: 0;
+  border-radius: 5px;
+}

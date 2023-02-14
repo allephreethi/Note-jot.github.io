@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style3.css">
+    <title>MSC</title>
+
+</head>
+<script>
+  function msccs()
+   {
+    var rd1=document.getElementById("rd1");
+    var rd2=document.getElementById("rd2");
+    if (rd1.selected==true)
+      window.location.href= "msccsfy.html";
+    else if (rd2.selected==true)
+      window.location.href= "msccssy.html";
+    else
+     alert("Please select the year");
+   }
+   
+   function mscit()
+   {
+    var rd1=document.getElementById("itfy");
+    var rd2=document.getElementById("itsy");
+    if (rd1.selected==true)
+      window.location.href= "msccsfy.html";
+    else if (rd2.selected==true)
+      window.location.href= "msccssy.html";
+    else
+     alert("Please select the year");
+   }
+
+   function mscmicro()
+   {
+    var rd1=document.getElementById("microfy");
+    var rd2=document.getElementById("microsy");
+    if (rd1.selected==true)
+      window.location.href= "msccsfy.html";
+    else if (rd2.selected==true)
+      window.location.href= "msccssy.html";
+    else
+     alert("Please select the year");
+   }
+   function mscmath()
+   {
+    var rd1=document.getElementById("mathfy");
+    var rd2=document.getElementById("mathsy");
+    if (rd1.selected==true)
+      window.location.href= "msccsfy.html";
+    else if (rd2.selected==true)
+      window.location.href= "msccssy.html";
+    else
+     alert("Please select the year");
+   }
+
+   function mscchem()
+   {
+    var rd1=document.getElementById("chemfy");
+    var rd2=document.getElementById("chemsy");
+    if (rd1.selected==true)
+      window.location.href= "msccsfy.html";
+    else if (rd2.selected==true)
+      window.location.href= "msccssy.html";
+    else
+     alert("Please select the year");
+   }
+
+   function mscphy()
+   {
+    var rd1=document.getElementById("phyfy");
+    var rd2=document.getElementById("physy");
+    if (rd1.selected==true)
+      window.location.href= "msccsfy.html";
+    else if (rd2.selected==true)
+      window.location.href= "msccssy.html";
+    else
+     alert("Please select the year");
+   }
+ 
+ 
+   
+</script>
+<body bgcolor="lavender">
+  <nav>
+      <img class="img" style="width:170px;height:70px;"
+  src="logo 5.jpg">
+      <ul>
+        <li><a href="project9594.html" ><b>Home</b></a></li>
+        <li><a href="loginform.html" ><b>Logout</b></a></li>     
+         
+      </ul>
+  </nav>
+  <section class="home1">
+    <div >
+       <div class="content-h1">
+         <h1> CHOOSE YOUR COURSE</h1>
+       </div>
+    </div>
+  <br> <br>
+  <table border="1"  align="center"  style=" height: 1000px; width: 1000px; ">   
+    <tr>
+    <td>
+        <h2 style="font-family: Arial, Helvetica, sans-serif">MASTER OF SCIENCE - CS </h2>
+         <select name="year" class="radio">
+        <option value="SY">-select year-</option>
+        <option id="rd1" value="F">First Year</option>
+        <option id="rd2" value="S">Second year</option>
+         </select>
+         <br><br>
+          <input type="button" class="btn" onclick="msccs()" value="OK">
+        </td>
+ 
+        <td>
+         <h2 style="font-family: Arial, Helvetica, sans-serif">MASTER OF SCIENCE - IT </h2>
+         <select name="year1" class="radio">
+          <option value="SY">-select year-</option>
+          <option id="itfy" value="F">First Year</option>
+          <option id="itsy" value="S">Second year</option>
+           </select>
+           <br> <br>
+            <input type="button" class="btn" onclick="mscit()" value="OK"></td></tr>
+          
+   
+           <tr><td>
+           <h2 style="font-family: Arial, Helvetica, sans-serif">MASTER OF SCIENCE - PHYSICS </h2>
+           <select name="year5" class="radio">
+            <option value="SY">-select year-</option>
+            <option id="phyfy" value="F">First Year</option>
+            <option id="physy" value="S">Second year</option>
+             </select>
+             <br> <br>
+              <input type="button" class="btn" onclick="mscphy()" value="OK"></td>
+     <td>
+         <h2 style="font-family: Arial, Helvetica, sans-serif">MASTER OF SCIENCE - CHEMISTRY </h2>
+         <select name="year4" class="radio">
+          <option value="SY">-select year-</option>
+          <option id="chemfy" value="F">First Year</option>
+          <option id="chemsy" value="S">Second year</option>
+           </select>
+           <br> <br>
+            <input type="button" class="btn" onclick="mscchem()" value="OK"></td></tr>
+        <tr><td>
+       <h2 style="font-family: Arial, Helvetica, sans-serif">MASTER OF SCIENCE - MATHS </h2>
+       <select name="year3" class="radio">
+        <option value="SY">-select year-</option>
+        <option id="mathfy" value="F">First Year</option>
+        <option id="mathsy" value="S">Second year</option>
+         </select>
+         <br> <br>
+          <input type="button" class="btn" onclick="mscmath()" value="OK"></td>
+        <td>
+       <h2 style="font-family: Arial, Helvetica, sans-serif">MASTER OF SCIENCE - MICROBIOLOGY </h2>
+       <select name="year2" class="radio">
+        <option value="SY">-select year-</option>
+        <option id="microfy" value="F">First Year</option>
+        <option id="microsy" value="S">Second year</option>
+         </select>
+         <br> <br>
+          <input type="button" class="btn" onclick="mscmicro()" value="OK"></td></tr>
+       
+
+</body>
+</html>
+
+
+      
+      

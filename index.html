@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Registration form</title>
+   <style>
+    body{
+    height: 640px;
+    background: linear-gradient(to bottom right, #721099 0%, #a397e494 100%)
+    }
+    .login-form{
+      width: 450px;
+      left: 475px;
+      position:absolute;
+      color: #fff;
+  }
+  .login-form h3{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.login-form p{
+  font-size: 17px;
+  margin: 10px 0;
+}
+.login-form input{
+  font-size: 10px;
+  width: 95%;
+  padding: 15px 10px;
+  border: 0;
+  border-radius: 5px;
+}
+.radio-inline{
+  position:absolute; left: 50px; display: inline-flex; margin:-20px; ;
+}
+
+   </style>
+</head>
+
+<body>
+<div class="form-container">
+    <div class="login-form">
+     <h3>Register now</h3>
+      <form action="register2.php" method="post">
+  <fieldset style="text-align:left; border-width:3px; border-color:rgb(22, 21, 22); height:fit-content;" ><br>
+     <label for="firstname">First Name: </label>
+      <input type="text" id="firstname" name="firstname" required placeholder="Enter your First Name"><br><br>
+        
+      <label for="lastname">Last Name: </label>
+      <input type="text" id="lastname" name="lastname" required placeholder="Enter your Last Name"><br><br>
+   
+      <label for="email">Email ID: </label>
+      <input type="email" id="email" name="email" required placeholder="Enter your Email Id"><br><br>
+    
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password" required placeholder="Enter your Password"><br><br>
+   
+      <label for="cpassword">Confirm Password: </label>
+      <input type="password" id="cpassword" name="cpassword" required placeholder="Confirm your Password"><br><br>
+    <fieldset style="text-align:left; border: width 2px; border-color:rgb(22, 21, 22); height:fit-content;">
+     <legend><label for="usertype">User Type</label></legend><br>
+     <div class="radio-inline">
+          <input type="radio" id="teacher" name="usertype" value="Teacher">
+          <label>    Teacher</label>
+          <input type="radio" id="student" name="usertype" value="Student">
+          <label>   Student</label>
+      </div>    
+    </fieldset> 
+    
+      <input type="submit" style=" font-size: 15px; font-weight: bold; margin: 12px 0;
+      padding: 10px 60px; width: 50%; height: fit-content; text-align:center;"
+      name="Register" class="form-btn">
+    </fieldset> 
+    <p>Already have an account? <a href="loginform.html" style="color: rgb(31, 34, 218); font: size 17px;">Login Here</a></p>
+    </div>
+   </form>
+</div>
+</body>
+</html>

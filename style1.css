@@ -1,0 +1,143 @@
+
+    
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    nav{
+        background:lavender;
+        height: 90px;
+    }
+    .img{
+        height: 10px;
+        width:3px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+        align-content: center;
+    }
+    nav ul li{
+        align-items: center;
+        display: inline-block;
+        line-height: 70px;
+        margin: 0 5px;
+    }
+    nav ul li a{
+        align-items: center;
+        color: purple;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .child{
+        align-items: center;
+        color: purple;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    .img1{
+        width: 100%;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        background:url(mainpage_bg.jpg)no-repeat ;
+        background-size: 1900px 900px ;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        text-align: center;
+        size: 100%;
+        padding-bottom: 10%;
+        
+    }
+    .home1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        background:url(9594bg.jpg)no-repeat ;
+        background-size: 1900px 900px ;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        text-align: center;
+        size: 100%;
+        padding-bottom: 10%;
+        
+    }
+    section{
+        min-height: 90vh;
+        padding: 1rem 7%;
+        padding-top: 6rem;   
+       
+    }
+    .btn{
+        background-color:purple;
+        color: white;
+        font-size: 200%;
+        font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 20%;
+    border-radius: 5px;
+    border: 3px solid purple;
+    }
+     
+    .content-btn{
+        text-align: center;
+        
+      }
+      .btn1{
+        height: 50px;
+        width: 350px;
+        background-color: lightcyan;
+      }
+        .content-header{
+          text-align: center;
+        }
+        .content{
+           display: flex;
+           margin: 50px;
+           border: 1px;
+           padding: 0px 1px;
+           background: lavender;
+
+        }
+        .content-text{
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .image{
+          width: 300px;
+          height: 300px;
+          
+        }
+       
+       
+        .content-h1{
+          text-align: center;
+          font-size: 150%;
+        }
+
+        .child1{
+            border: 3px solid lavender;
+            border-left-color: rgb(157, 92, 218);
+            
+            float: left;
+            width: 30%;
+            font-size:55%;
+            text-align: left;
+            padding-bottom: 5%;
+            
+          }
+       
+   
